@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "CV"
-    url: /cv/
+    url: https://zhichaopengmath.github.io/files/cv.pdf   #/cv/
 
   - title: "Publications"
     url: /publications/
