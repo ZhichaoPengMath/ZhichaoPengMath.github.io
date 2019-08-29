@@ -16,7 +16,7 @@ Research Interest
 - Structure preserving methods: asymptotic preserving method, positivity preserving method,
 energy stable (preserving) method
 
--Numerical simulation of kinetic models
+- Numerical simulation of kinetic models
 
 Education 
 ======
