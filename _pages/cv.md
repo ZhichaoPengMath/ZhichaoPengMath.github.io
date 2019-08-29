@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<embed src="https://zhichaopengmath.github.io/files/cv.pdf" type="application/pdf" width="600    px" height="500px" />
+#embed src="https://zhichaopengmath.github.io/files/cv.pdf" type="application/pdf" width="600    px" height="500px" /
 
 #{% include base_path %}
 #
@@ -39,9 +39,9 @@ redirect_from:
 #
 #Publications
 #======
-#  <ul>{% for post in site.publications %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 #  
 #Talks
 #======
