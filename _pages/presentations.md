@@ -4,7 +4,6 @@ title: "Invited talks"
 permalink: /presentations/
 author_profile: true
 ---
-
 - 2018 SIAM Annual Meeting, Oregon Convention Center, Portland, OR,
 USA, July 9-13, 2018.
 
