@@ -21,8 +21,7 @@ energy stable (preserving) method
 Education 
 ======
 - P.h.D., Department of Mathematical Sciences, Rensselaer Polytechnic Institute,
-Troy, NY, United States, 08/2015-05/2020 (anticipated date).
-
+Troy, NY, United States, 08/2015-05/2020 (anticipated date). \\
 Advisor: [Fengyan Li](https://homepages.rpi.edu/~lif/)
 
 
