@@ -22,9 +22,7 @@ Education
 ======
 - P.h.D., Department of Mathematical Sciences, Rensselaer Polytechnic Institute,
 Troy, NY, United States, 08/2015-05/2020 (anticipated date). \\
-Advisor: [Fengyan Li](https://homepages.rpi.edu/~lif/)
-
-
+Advisor: Professor [Fengyan Li](https://homepages.rpi.edu/~lif/)
 
 - B.S., School of Mathematical Sciences, Peking University, Beijing, P.R. China,
 09/2011-07/2015
