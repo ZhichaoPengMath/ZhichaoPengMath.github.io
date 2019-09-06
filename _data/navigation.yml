@@ -9,10 +9,10 @@ main:
   - title: "Presentations"
     url: /presentations/
 
-  - title: "research"
+  - title: "Research"
     url: /research/
   
-  - teaching: "teaching"
+  - teaching: "Teaching"
     url: /teaching/
 
     #- title: "Talks"
