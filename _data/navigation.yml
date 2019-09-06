@@ -12,7 +12,7 @@ main:
   - title: "Research"
     url: /research/
   
-  - teaching: "Teaching"
+  - title: "Teaching"
     url: /teaching/
 
     #- title: "Talks"
