@@ -9,6 +9,12 @@ main:
   - title: "Presentations"
     url: /presentations/
 
+  - title: "research"
+    url: /research/
+  
+  - teaching: "teaching"
+    url: /teaching/
+
     #- title: "Talks"
     #url: /talks/    
 
