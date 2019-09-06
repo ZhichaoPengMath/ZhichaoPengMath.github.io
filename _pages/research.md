@@ -14,6 +14,7 @@ Maxwell equations in nonlinear optical mediums
 
 Grad-Shafranov equation
 --------------------------
-The toroidally axisymmetric plasma equilibrium is determined by the Grad-Shafranov equation:<br/><img src='/images/research/Grad-Shafranov/grad-shafranov.png' width="50%" alt="">
-where  <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
+The toroidally axisymmetric plasma equilibrium is determined by the Grad-Shafranov equation:
+<img src="https://latex.codecogs.com/gif.latex?-r\widetilde{\nabla}\left(\frac{1}{r}\widetilde{\nabla}\psi\right)
+= \mu_0 r^2\frac{\partial p}{\partial \psi}+\frac{1}{2}\frac{\partial g^2}{\partial \psi}," /> 
 
