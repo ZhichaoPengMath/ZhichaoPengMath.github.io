@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-Linear kinetic transport equations under a diffusive scaling
+Asymptotic preserving schemes for linear kinetic transport equations under a diffusive scaling
 --------------------------
 
 Maxwell equations in nonlinear optical mediums
@@ -19,4 +19,4 @@ The toroidally axisymmetric plasma equilibrium is determined by the Grad-Shafran
 where \\(2\pi\psi(r,z)\\) is the poloidal magnetic flux, \\( p \\) is the plasma pressure, and 
 \\(2\pi g\\) is the net poloidal current flow and the toridal field coils. For now, we are considering the fixed boundary porblems with given \\(p\\) and \\(g\\). The magnetic field and the current, which are of more interest, are determined by \\(\widetilde{\nabla}\psi\\), hence, it is essential for a numerical solver to approximate \\(\widetilde{\nabla}\psi\\) accurately. 
 
-In order to get a more accurate approximation to \\(\widetilde{\nabla}\psi\\), we are developing a discontinuous Petrov Galerkin (DPG) finite element solver under the framework of [MFEM](https://mfem.org/).
+In order to get a more accurate approximation to \\(\widetilde{\nabla}\psi\\), we are developing an ultra-weak discontinuous Petrov Galerkin (DPG) finite element solver under the framework of [MFEM](https://mfem.org/). The Anderson acceleration and algebraic multigrid preconditioners for nonlinear solvers are implemented through [PETSc](https://www.mcs.anl.gov/petsc/) and [HYPTE](https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods). Conforming adaptive mesh refinement (AMR) is also considered.
