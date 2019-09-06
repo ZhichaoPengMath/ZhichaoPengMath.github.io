@@ -6,6 +6,15 @@ author_profile: true
 ---
 Asymptotic preserving schemes for linear kinetic transport equations under a diffusive scaling
 --------------------------
+Linear kinetic transport equations provide a prototype model for the neutron transport, the radiation transfer, etc. Under a diffusive scaling, when the Knudsen number 
+\\[\varepsilon = \frac{\textrm{mean free path of the particle} }{\textrm{character length scale} } \\]
+goes to \\(0\\), the kinetic equation asymptotically converges to a diffusion equation. To conquer the stiffness for \\(\varepsilon\ll 1\\), asymptotic preserving (AP) scheme, which converges to a convergent liminting scheme for the limiting diffusive equation, is a natrual choice.
+
+In [2013,Boscarino, Pareschi,Russo], a family of high order schemes is proposed to achieve unconditional stability in the diffusive regime \\(\varepsilon\ll 1\\). Their scheme is based on the even-odd decomposition and a further equivalent reformulation with the introduction of a weighted diffusive term.
+
+To deepen the theoretical understanding of their further reformulation idea, under the framework of micro-macro decomposition, we perform Fourier-type and energy-type analysis. Based on Fourier analysis, we numerically solve an eigen-value problem, confirms the unconditional stabilty for \\(\varepsilon\ll 1\\), and identifies the preferrable structure of the numerical weight and stability condition for \\(\varepsilon=O(1)\\). With energy analysis, we rigorously prove the stability property. Formal and rigorous asymptotic analysis as well as initial layers  are also considered.
+
+Recently, we find a new strategy without introducing the diffusive term and the furhter reformulation, to define high order AP schemes, with unconditional stability in the diffusive regime. The relavent paper is under preparation.
 
 
 Structure preserving schemes for the Maxwell equations in a nonlinear optical media
