@@ -5,10 +5,12 @@ permalink: /research/
 author_profile: true
 ---
 
-- Linear kinetic transport equations under a diffusive scaling
-
-- Maxwell equations in nonlinear optical mediums
-
-- Grad-Shafranov equation
+Linear kinetic transport equations under a diffusive scaling
 --------------------------
-The toroidally axisymmetric plasma equilibrium is determined by the ![Grad-Shafranov equation:](/images/research/Grad-Shafranov/grad-shafranov.png)
+
+Maxwell equations in nonlinear optical mediums
+------------------------
+
+Grad-Shafranov equation
+--------------------------
+The toroidally axisymmetric plasma equilibrium is determined by the ![Grad-Shafranov equation:](/images/editing-talk.png), a
