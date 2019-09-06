@@ -16,5 +16,5 @@ Grad-Shafranov equation
 --------------------------
 The toroidally axisymmetric plasma equilibrium is determined by the Grad-Shafranov equation:
 <img src="https://latex.codecogs.com/gif.latex?$$-r\widetilde{\nabla}\left(\frac{1}{r}\widetilde{\nabla}\psi\right)
-= \mu_0 r^2\frac{\partial p}{\partial \psi}+\frac{1}{2}\frac{\partial g^2}{\partial \psi}$$," /> 
+= \mu_0 r^2\frac{\partial p}{\partial \psi}+\frac{1}{2}\frac{\partial g^2}{\partial \psi}$$," />where psi 
 
