@@ -14,4 +14,4 @@ Lorentz dispersion in one dimension, 05/2019 [pdf](https://homepages.rpi.edu/~li
 Preprint
 -----------
 1. Stability, error and asymptotic analysis of AP IMEX–LDG schemes for linear kinetic transport equations
-1. A discontinuous Petrov-Galerkin scheme for the Grad-Shafranov equation
+1. An adaptive discontinuous Petrov-Galerkin scheme for the Grad-Shafranov equation
