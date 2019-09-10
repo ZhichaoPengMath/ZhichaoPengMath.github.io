@@ -9,7 +9,7 @@ Teaching assisstant for MATH 2400 - Intro to Differential Equations, RPI, Fall 2
 ------------
 - I want to say thank you to my friend Arthur Newell. His suggestions and old lecture notes help me a lot when preparing my own lectures.
 
-- My office is in 316E Amos Eaton, and my office hour is 10:00 - 11:30 a.m. Tuesday and Friday.
+- My office is in 316E Amos Eaton. My office hour is 10:00 - 11:30 a.m. Tuesday and Friday in the lobby on the 4th floor of Amos Eaton.
 
 - Lecture notes for the recitation.  [0906/0910](https://zhichaopengmath.github.io/files/ta/notes0906.pdf)
 
