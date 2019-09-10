@@ -7,6 +7,11 @@ author_profile: true
 
 Teaching assisstant for MATH 2400 - Intro to Differential Equations, RPI, Fall 2019
 ------------
+- I want to say thank you to my friend Arthur Newell. His suggestions and old lecture notes helps me when preparing my own lectures.
+
+- My office is in 316E Amos Eaton, and my office hour is 10:00 - 11:30 a.m. Tuesday and Friday.
+
+- Lecture notes for the recitation.  [0906/0910](https://zhichaopengmath.github.io/files/ta/notes0906.pdf)
 
 Teaching assisstant for MATH 4090 - Foundation of Analysis, RPI, Fall 2018
 ---------
