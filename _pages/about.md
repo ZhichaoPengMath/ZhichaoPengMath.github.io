@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a fifth year P.h.D student in the department of matehmatical sciences in Rensselaer Polytechnique Institute. My advisor is Professor [Fengyan Li](https://homepages.rpi.edu/~lif/).
+I am currently a fifth year Ph.D student in the Department of Matehmatical Sciences at Rensselaer Polytechnique Institute. My advisor is Professor [Fengyan Li](https://homepages.rpi.edu/~lif/).
 
 Research Interest 
 ======
@@ -20,11 +20,11 @@ energy stable (preserving) method
 
 Education 
 ======
-- P.h.D., Department of Mathematical Sciences, Rensselaer Polytechnic Institute,
+- Ph.D. in applied Mathematics, Department of Mathematical Sciences, Rensselaer Polytechnic Institute,
 Troy, NY, United States, 08/2015-05/2020 (anticipated date). \\
 Advisor: Professor [Fengyan Li](https://homepages.rpi.edu/~lif/)
 
-- B.S., School of Mathematical Sciences, Peking University, Beijing, P.R. China,
+- B.S. in Mathematics, School of Mathematical Sciences, Peking University, Beijing, P.R. China,
 09/2011-07/2015
 
 Awards
