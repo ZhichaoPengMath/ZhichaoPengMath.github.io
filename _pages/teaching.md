@@ -13,7 +13,7 @@ Teaching assisstant for MATH 2400 - Intro to Differential Equations, RPI, Fall 2
 
 -There will be a quiz on Friday 09/27/2019 for Section 18 and 20, and Tuesday 10/01/2019 for Section 17 and 19.
 
-- Lecture notes for the recitation.  [0902/0910](https://zhichaopengmath.github.io/files/ta/FirstClassNotes.pdf) [0906/0910](https://zhichaopengmath.github.io/files/ta/notes0906.pdf) [0913/0917](https://zhichaopengmath.github.io/files/ta/notes0913.pdf)
+- Lecture notes for the recitation.  [0902/0910](https://zhichaopengmath.github.io/files/ta/FirstClassNotes.pdf) [0906/0910](https://zhichaopengmath.github.io/files/ta/notes0906.pdf) [0913/0917](https://zhichaopengmath.github.io/files/ta/notes0913.pdf) [0920/0924](https://zhichaopengmath.github.io/files/ta/notes0924.pdf)
 
 Teaching assisstant for MATH 4090 - Foundation of Analysis, RPI, Fall 2018
 ---------
