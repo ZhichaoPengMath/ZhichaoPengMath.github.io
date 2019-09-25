@@ -15,6 +15,8 @@ Teaching assisstant for MATH 2400 - Intro to Differential Equations, RPI, Fall 2
 
 - Lecture notes for the recitation.  [0902/0910](https://zhichaopengmath.github.io/files/ta/FirstClassNotes.pdf) [0906/0910](https://zhichaopengmath.github.io/files/ta/notes0906.pdf) [0913/0917](https://zhichaopengmath.github.io/files/ta/notes0913.pdf) [0920/0924](https://zhichaopengmath.github.io/files/ta/notes0924.pdf)
 
+- Solutions for selected homework [hw1/hw2](https://zhichaopengmath.github.io/files/ta/hw1-hw2.pdf)
+
 Teaching assisstant for MATH 4090 - Foundation of Analysis, RPI, Fall 2018
 ---------
 
