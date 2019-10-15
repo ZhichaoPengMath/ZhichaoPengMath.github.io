@@ -15,7 +15,7 @@ Teaching assisstant for MATH 2400 - Intro to Differential Equations, RPI, Fall 2
 
 - Link for [Maple installation](https://dotcio.rpi.edu/services/software-labs) through RPI. Click Launch the Software Licensing Tool, and provide your RPI RCS ID and password. 
 
-- A sample [Maple code](https://zhichaopengmath.github.io/files/ta/MapleSampleCode.mw) for solving simple differential equations 
+- A sample [Maple code](https://zhichaopengmath.github.io/files/ta/MapleSampleCode.mw) for solving simple differential equations. Windows users should right click and select ``save target as"
 
 - Lecture notes for the recitation.  [0902/0910](https://zhichaopengmath.github.io/files/ta/FirstClassNotes.pdf) [0906/0910](https://zhichaopengmath.github.io/files/ta/notes0906.pdf) [0913/0917](https://zhichaopengmath.github.io/files/ta/notes0913.pdf) [0920/0924](https://zhichaopengmath.github.io/files/ta/notes0924.pdf) [1005/1008](https://zhichaopengmath.github.io/files/ta/notes1008.pdf)
 
