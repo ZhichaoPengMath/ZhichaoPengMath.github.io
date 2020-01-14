@@ -13,4 +13,4 @@ Paper
 
 Preprint
 -----------
-1. Z. Peng, Y. Cheng, J.-M. Qiu, F. Li, Stability-enhanced AP IMEX1-LDG method: energy-based uniform stability
+1. Z. Peng, Y. Cheng, J.-M. Qiu, F. Li, Stability, asymptotic and error analysis of  AP IMEX-LDG schemes for linear kinetic transport equations under a diffusive scaling
