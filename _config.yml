@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Zhichao Peng"
-  avatar           : "my_profile.png" # picture
+  avatar           : "profile.png" # picture
   bio              : "Ph.D. student in Rensselaer Polytechnic Institute"
   location         : "Troy, NY, USA"
   employer         :
