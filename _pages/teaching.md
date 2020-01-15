@@ -11,8 +11,6 @@ Teaching assisstant for MATH 2400 - Intro to Differential Equations, RPI, Fall 2
 
 - My office is in 316E Amos Eaton. My office hour is 10:00 - 11:30 a.m. Tuesday and Friday in the lobby on the 4th floor of Amos Eaton.
 
-- There will be a quiz on Friday 09/27/2019 for Section 18 and 20, and Tuesday 10/01/2019 for Section 17 and 19.
-
 - Link for [Maple installation](https://dotcio.rpi.edu/services/software-labs) through RPI. Click Launch the Software Licensing Tool, and provide your RPI RCS ID and password. 
 
 - A sample [Maple code](https://zhichaopengmath.github.io/files/ta/MapleSampleCode.mw) for solving simple differential equations. Windows users should right click and select ``save target as"
