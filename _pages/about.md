@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a fifth year Ph.D. student in the Department of Matehmatical Sciences at Rensselaer Polytechnique Institute. My advisor is Professor [Fengyan Li](https://homepages.rpi.edu/~lif/).
+I am currently a fifth year Ph.D. student in the Department of Mathematical Sciences at Rensselaer Polytechnique Institute. My advisor is Professor [Fengyan Li](https://homepages.rpi.edu/~lif/).
 
 Research Interest 
 ======
