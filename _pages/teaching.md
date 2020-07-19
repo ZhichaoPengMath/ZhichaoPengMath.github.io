@@ -7,8 +7,8 @@ author_profile: true
 
 Teaching assisstant for MATH 2400 - Intro to Differential Equations, RPI, Fall 2019
 ------------
-<!- I want to say thank you to my friend Arthur Newell. His suggestions and old lecture notes help me a lot when preparing my own lectures.
-#
+<!- I want to say thank you to my friend Arthur Newell. His suggestions and old lecture notes help me a lot when preparing my own lectures.>
+
 - My office is in 316E Amos Eaton. My office hour is 10:00 - 11:30 a.m. Tuesday and Friday in the lobby on the 4th floor of Amos Eaton.
 #
 - Link for [Maple installation](https://dotcio.rpi.edu/services/software-labs) through RPI. Click Launch the Software Licensing Tool, and provide your RPI RCS ID and password. 
