@@ -5,6 +5,10 @@ permalink: /teaching/
 author_profile: true
 ---
 
+Instructor for MTH 314 - Matrix Algebra with Computational Applications, MSU, Spring 2021
+------------
+Instructor for MTH 124 - Survey of Calculus I, MSU, Fall 2020
+------------
 Teaching assisstant for MATH 2400 - Intro to Differential Equations, RPI, Fall 2019
 ------------
 <!-- I want to say thank you to my friend Arthur Newell. His suggestions and old lecture notes help me a lot when preparing my own lectures.
