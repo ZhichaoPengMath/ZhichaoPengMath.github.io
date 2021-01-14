@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a postdoc in the Department of Mathematics, Michigan State University. My superviosrs are Dr. [Daniel Appel\"{o}](https://sites.google.com/msu.edu/danielappelo) and Dr. [Yingda Cheng](https://sites.google.com/view/yingda-cheng).
+I am currently a postdoc in the Department of Mathematics, Michigan State University. My superviosrs are Dr. [Daniel Appel&ouml;](https://sites.google.com/msu.edu/danielappelo) and Dr. [Yingda Cheng](https://sites.google.com/view/yingda-cheng).
 
 Research Interest 
 ======
