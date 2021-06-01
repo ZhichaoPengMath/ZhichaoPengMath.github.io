@@ -8,6 +8,7 @@ author_profile: true
 
 Submitted
 --------------
+1. Z. Peng, M. Wang, F. Li, A learning-based projection method for model order reduction of transport problems, [arxiv:2105.14633](https://arxiv.org/abs/2105.14633), 2021
 1. Z. Peng, D. Appel&ouml;, EM-WaveHoltz: A flexible frequency-domain method built from time-domain solvers, [arxiv:2013.14789](https://arxiv.org/abs/2103.14789), 2021
 1. Z. Peng, Y. Chen, Y. Cheng, F. Li, A reduced basis method for radiative transfer equation, [arxiv:2103.07574](https://arxiv.org/abs/2103.07574), 2021
 
