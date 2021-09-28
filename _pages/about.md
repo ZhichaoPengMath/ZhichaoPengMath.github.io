@@ -13,12 +13,16 @@ Research Interest
 ======
 - Computational methods for kinetic problems, wave equations, electromagnetics
 
-- Finite element methods: discontinuous Galerkin (DG) method, discontinuous Pertrov-Galerkin (DPG) method
+	- Finite element methods: discontinuous Galerkin (DG) method, discontinuous Pertrov-Galerkin (DPG) method
 
-- Structure preserving methods: asymptotic preserving method, positivity preserving method,
+	- Structure preserving methods: asymptotic preserving method, positivity preserving method,
 energy stable (preserving) method
 
+- Characterization and control prolbems in quantum physics
+
 - Reduced order modeling
+
+
 
 
 
