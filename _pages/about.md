@@ -17,7 +17,7 @@ Research Interest
 	- Structure preserving methods: asymptotic preserving method, positivity preserving method, energy stable method
 	- Fast solvers and preconditioners
 
-- Characterization and control prolbems in quantum physics
+- Characterization and control prolbems for quatum computing
 
 - Reduced order modeling
 
