@@ -10,7 +10,7 @@ Submitted
 --------------
 1. Z. Peng, D. Appel&ouml;, S. Liu, Universal AMG Accelerated Embedded Boundary Method Without Small Cell Stiffness, [arxiv:2204.06083](https://arxiv.org/abs/2204.06083), 2022
 1. Z. Peng, Y. Chen, Y. Cheng, F. Li, A micro-macro decomposed reduced basis method for the time dependent radiative transfer equation, [arxiv:2211.04677](https://arxiv.org/abs/2211.04677), 2022
-1. L. A. Martinez, Z. Peng, D. Appel&ouml;, D. Tennant, A. Petersson, J. DuBois, Y. Rosen , Noise-specific beats in the higher-level Ramsey curves of a transmon qubit (manuscript available upon request)
+1. L. A. Martinez, Z. Peng, D. Appel&ouml;, D. Tennant, A. Petersson, J. DuBois, Y. Rosen , Noise-specific beats in the higher-level Ramsey curves of a transmon qubit, [arxiv:2211.06531](https://arxiv.org/abs/2211.06531), 2022
 
 Paper
 --------------
