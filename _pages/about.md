@@ -7,7 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a postdoc in the Department of Mathematics, Michigan State University. My supervisors are Dr. [Daniel Appel&ouml;](https://sites.google.com/msu.edu/danielappelo) and Dr. [Yingda Cheng](https://sites.google.com/view/yingda-cheng).
+I am currently a tenure track assistant professor in the Department of Mathematics, The Hong Kong University of Science and Technology (HKUST). 
+
+Before joining HKUST, I was a postdoc in the Department of Mathematics, Michigan State University under the supervison of Dr. [Daniel Appel&ouml;](https://sites.google.com/msu.edu/danielappelo) and Dr. [Yingda Cheng](https://yingdacheng.github.io/). I got my doctoral degree from Rensselaer Polytechnic Instittute (RPI) under the supervision of Dr. [Fengyan Li](https://homepages.rpi.edu/~lif/).
 
 Research Interest 
 ======
@@ -17,13 +19,9 @@ Research Interest
 	- Structure preserving methods: asymptotic preserving method, positivity preserving method, energy stable method
 	- Fast solvers and preconditioners
 
-- Characterization and control prolbems for quatum computing
-
 - Reduced order modeling
 
-
-
-
+- Characterization and control prolbems for quatum computing
 
 Education 
 ======
