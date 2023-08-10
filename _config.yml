@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zhichao Peng"
 title_separator          : "-"
 name                     : &name "Zhichao Peng"
-description              : &description "Postdoc, Math Department, Michigan State University"
+description              : &description "Assistant Professor at The Hong Kong University of Science and Technology"
 url                      : https://ZhichaoPengMath.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ZhichaoPengMath.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Zhichao Peng"
   avatar           : "my_profile.png" # picture
-  bio              : "Postdoc, Math Department, Michigan State University"
-  location         : "East Lansing, MI, USA"
+  bio              : 
+  location         : 
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : 
-  email            : "pengzhic@msu.edu"
+  email            : "pengzhic@ust.hk"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
