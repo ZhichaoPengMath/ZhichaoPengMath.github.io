@@ -32,8 +32,6 @@ Advisor: Dr. [Fengyan Li](https://homepages.rpi.edu/~lif/)
 - B.S. in Mathematics, School of Mathematical Sciences, Peking University, Beijing, P.R. China,
 09/2011-07/2015
 
-Awards
-=======
-- The Joaquin B. Diaz Prize, Rensselaer Polytechnic Institute, 2020
-- Founders Award of Excellence, Rensselaer Polytechnic Institute, 2018
-
+Contact Information
+======
+- Email: pengzhic@ust.hk
