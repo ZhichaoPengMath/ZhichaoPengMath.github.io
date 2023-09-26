@@ -5,6 +5,9 @@ permalink: /teaching/
 author_profile: true
 ---
 
+Instructor for MATH 5311 - Advanced Numerical Method 1, HKUST, Fall 2023
+------------
+
 Instructor for MTH 132 - Calculus I, MSU, Fall 2021
 ------------
 
