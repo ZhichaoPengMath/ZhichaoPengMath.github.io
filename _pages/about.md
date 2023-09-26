@@ -33,7 +33,7 @@ Education
 Troy, NY, United States, 08/2015-08/2020. \\
 Advisor: Dr. [Fengyan Li](https://homepages.rpi.edu/~lif/)
 
-- B.S. in Mathematics, School of Mathematical Sciences, Peking University, Beijing, P.R. China,
+- B.S. in Mathematics, School of Mathematical Sciences, Peking University, Beijing, China,
 09/2011-07/2015
 
 Contact Information
