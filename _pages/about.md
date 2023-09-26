@@ -13,15 +13,19 @@ Before joining HKUST, I was a postdoc in the Department of Mathematics, Michigan
 
 Research Interest 
 ======
-- Computational methods for kinetic problems, wave equations, electromagnetics
+From the methodlogy perspective, my current research interests include (1) design, analysis and implementation of numerical solvers for PDEs and (2) model order reduction techniques to reduce computational cost. 
 
-	- Finite element method, finite difference method, embedded boundary method
+From the problem perspective, I am interested in kinetic equations and wave equations.
+
+- Computational methods for kinetic problems, wave equations, electromagnetics and other problems.
+
+	- Development of finite element method, finite difference method, embedded boundary method
 	- Structure preserving methods: asymptotic preserving method, positivity preserving method, energy stable method
-	- Fast solvers and preconditioners
+	- Fast solvers and preconditioners for time-harmonic Maxwell's equation and Helmholtz equation 
 
-- Reduced order modeling
+- Reduced order models for kinetic equations, hyperbolic equations and other transport dominant problems
 
-- Characterization and control prolbems for quatum computing
+During my postdoc period, I also did research in characterization and control prolbems for quatum computing. Believe it or not, I have performed physics experiments on real quantum devices.
 
 Education 
 ======

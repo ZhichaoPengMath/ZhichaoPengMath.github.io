@@ -4,6 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+My google scholar profile can be found [here](https://scholar.google.com/citations?user=rCPL8qoAAAAJ&hl=en).
 
 
 Submitted
