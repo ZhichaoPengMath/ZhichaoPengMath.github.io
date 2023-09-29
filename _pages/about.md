@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a tenure track assistant professor in the Department of Mathematics, The Hong Kong University of Science and Technology (HKUST). 
+I am currently a tenure-track assistant professor in the Department of Mathematics, The Hong Kong University of Science and Technology (HKUST). 
 
 Before joining HKUST, I was a postdoc in the Department of Mathematics, Michigan State University under the supervison of Dr. [Daniel Appel&ouml;](https://sites.google.com/msu.edu/danielappelo) and Dr. [Yingda Cheng](https://yingdacheng.github.io/). I got my doctoral degree from Rensselaer Polytechnic Institute (RPI) under the supervision of Dr. [Fengyan Li](https://homepages.rpi.edu/~lif/).
 
