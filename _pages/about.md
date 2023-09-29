@@ -13,7 +13,7 @@ Before joining HKUST, I was a postdoc in the Department of Mathematics, Michigan
 
 Research Interest 
 ======
-From a methodlogy perspective, my current research interests include (1) design, analysis and implementation of numerical solvers for PDEs and (2) model order reduction to reduce computational cost. 
+From a methodology perspective, my current research interests include (1) design, analysis and implementation of numerical solvers for PDEs and (2) model order reduction to reduce computational cost. 
 
 From a problem perspective, I am more interested in kinetic equations and wave equations these days.
 
@@ -25,7 +25,7 @@ From a problem perspective, I am more interested in kinetic equations and wave e
 
 - Reduced order models for kinetic equations, hyperbolic equations and other transport dominant problems
 
-During my postdoc period, I also did research in characterization and control prolbems for quatum computing. Believe it or not, I have performed physics experiments on real quantum devices.
+During my postdoc period, I also did research in characterization and control problems for quantum computing. Believe it or not, I have performed physics experiments on real quantum devices.
 
 Education 
 ======
