@@ -93,7 +93,19 @@ The filtering operator $\Pi$ can be implemented by adding a few more lines (red 
 ![image](https://zhichaopengmath.github.io/files/WaveHoltzDemo.png)
 
 Based on the code for filtering opertor, the right hand side vector $\Pi 0$ and the  matrix-vector multiplication $(I-S)\nu$ can be computed in a matrix free manner.
-![image](https://zhichaopengmath.github.io/files/WaveHoltzDemo2.png)
+```matlab
+PI_0 = time_domain_evolution(zeros(N,1));% compute PI 0
+
+% Operator (I-S)v = (I-Π)v + Π0
+%===============================
+function res = ImS(v)
+    % use time domain simulation to compute Πv
+    global PI_0;
+    PI_v = time_domain_evolution(v);
+    res = v-PI_v+PI_0;
+end
+
+```
 
 At the end of the day, we can solve $(I-S)\nu = \Pi 0$ with a Krlov subspace iterative solver.
 
