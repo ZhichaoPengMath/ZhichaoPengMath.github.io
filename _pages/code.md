@@ -16,7 +16,8 @@ The matlab demo code is written by me and [Dr. Pengliang Yang](https://yangpl.wo
 If you read our sample code, you may notice that we only fiter for $E$. The reason is that we are considering a simple problem with $Im(H)=0$. For more complicated problems, we need to filter for 
 both $E$ and $H$.
 
-### Basic Ideas
+### [Basic Ideas](#BasicIdeas)
+<a name="BasicIdeas"></a>
 1. Given the frequency-domain problem, such as the following simple non-dimensionalized case:
 $$
 \begin{align}
