@@ -17,10 +17,6 @@ If you read our sample code, you may notice that we only fiter for $E$. The reas
 both $E$ and $H$.
 
 ### Basic Ideas
-<details>
-<summary>
-Read more
-</summary>
 1. Given the frequency-domain problem, such as the following simple non-dimensionalized case:
 $$
 \begin{align}
@@ -79,13 +75,8 @@ and solve it with an iterative solver.
 Matrix vector multiplication $(I-S)\nu$ can be computed in a matrix-free manner based on a time-domain solver.
 
 We want to point that $\Pi 0$ filters the solution corresponding to $0$ initial condition over one period and with non-zero source $\Pi 0\neq 0$. 
-</details>
 
 ### How to adapt your time-domain code to solve a frequency-domain problem? 
-<details>
-<summary>
-Read more
-</summary>
 Eessential new components include:
 1. An integration in time to compute the result of the filtering operator, 
 1. A function to wrap matrix-vector multiplication in matrix free format.
@@ -107,13 +98,7 @@ function res = ImS(v)
 end
 ```
 
-</details>
-
 ### Basic properties
-<details>
-<summary>
-Read more
-</summary>
 1. To some extent, WaveHoltz can be seen as preconditioning the frequency-domain problem with time-domain simulations and filtering.
 
 1. In comparsion with limiting amplitude principle, the filtering process makes the convergence faster. Also, the WaveHoltz method can be applied to problems in closed domain (e.g. PEC boundary conditions in all boundary). 
@@ -127,12 +112,6 @@ Read more
 Note that for other cases, the resulting linear system may not be SPD. For example, in the case with non-reflecting boundary conditions realized through PML or radiation boundary condition, the linear system will have complex eigenvalues. 
 
 1. It is possible to compute solution corresponding to multiple frequency with one linear solve and post-processing. See [our paper](https://arxiv.org/abs/2103.14789) for details.
-</details>
 ### References
-<details>
-<summary>
-Read more
-</summary>
 1. Daneil, Fortino and Olof's first WaveHoltz paper for the Helmholtz equation: D. Appel&ouml;, F. Garcia, O. Runborg,  WaveHoltz: Iterative Solution of the Helmholtz Equation via the Wave Equation, SIAM Journal on Scientific Computing, Vol. 42, 4, A1950-A1983
 1. Our paper for the frequency-domain Maxwell's paper: Z. Peng, D. Appel&ouml;, EM-WaveHoltz: A flexible frequency-domain method built from time-domain solvers, IEEE Transactions on Antennas and Propagation, 2022, Vol. 70, No. 7  
-</details>
