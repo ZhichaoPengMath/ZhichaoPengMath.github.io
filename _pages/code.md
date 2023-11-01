@@ -16,8 +16,16 @@ The matlab demo code is written by me and [Dr. Pengliang Yang](https://yangpl.wo
 If you read our sample code, you may notice that we only fiter for $E$. The reason is that we are considering a simple problem with $Im(H)=0$. For more complicated problems, we need to filter for 
 both $E$ and $H$.
 
-### [Basic Ideas](#BasicIdeas)
+### [1 Basic Ideas](#BasicIdeas)
+
+### [2 How to adapt your time-domain code to solve a frequency-domain problem?](#Implementation)
+
+### [3 Basic properties](#Properties)
+
+### [4 Reference](#Reference)
+
 <a name="BasicIdeas"></a>
+### Basic ideas
 1. Given the frequency-domain problem, such as the following simple non-dimensionalized case:
 $$
 \begin{align}
@@ -75,9 +83,8 @@ and solve it with an iterative solver.
 
 Matrix vector multiplication $(I-S)\nu$ can be computed in a matrix-free manner based on a time-domain solver.
 
-We want to point that $\Pi 0$ filters the solution corresponding to $0$ initial condition over one period and with non-zero source $\Pi 0\neq 0$. 
-
-### How to adapt your time-domain code to solve a frequency-domain problem? 
+<a name="Implementation"></a>
+### How to adapt your time-domain code to solve a frequency-domain problem?
 Eessential new components include:
 1. An integration in time to compute the result of the filtering operator, 
 1. A function to wrap matrix-vector multiplication in matrix free format.
@@ -85,20 +92,12 @@ Eessential new components include:
 The filtering operator $\Pi$ can be implemented by adding a few more lines (red line) to your time-domain solver.
 ![image](https://zhichaopengmath.github.io/files/WaveHoltzDemo.png)
 
-The right hand side vector $\Pi 0$ and the  matrix-vector multiplication $(I-S)\nu$ can be computed in a matrix free manner.
-```matlab
-PI_0 = time_domain_evolution(zeros(N,1));% compute PI 0
+Based on the code for filtering opertor, the right hand side vector $\Pi 0$ and the  matrix-vector multiplication $(I-S)\nu$ can be computed in a matrix free manner.
+![image](https://zhichaopengmath.github.io/files/WaveHoltzDemo2.png)
 
-% Operator (I-S)v = (I-Π)v + Π0
-%===============================
-function res = ImS(v)
-    % use time domain simulation to compute Πv
-    global PI_0;
-    PI_v = time_domain_evolution(v);
-    res = v-PI_v+PI_0;
-end
-```
+At the end of the day, we can solve $(I-S)\nu = \Pi 0$ with a Krlov subspace iterative solver.
 
+<a name="Properties"></a>
 ### Basic properties
 1. To some extent, WaveHoltz can be seen as preconditioning the frequency-domain problem with time-domain simulations and filtering.
 
@@ -113,6 +112,10 @@ end
 Note that for other cases, the resulting linear system may not be SPD. For example, in the case with non-reflecting boundary conditions realized through PML or radiation boundary condition, the linear system will have complex eigenvalues. 
 
 1. It is possible to compute solution corresponding to multiple frequency with one linear solve and post-processing. See [our paper](https://arxiv.org/abs/2103.14789) for details.
-### References
+
+We want to point that $\Pi 0$ filters the solution corresponding to $0$ initial condition over one period and with non-zero source $\Pi 0\neq 0$. 
+
+<a name="Reference"></a>
+### Reference
 1. Daneil, Fortino and Olof's first WaveHoltz paper for the Helmholtz equation: D. Appel&ouml;, F. Garcia, O. Runborg,  WaveHoltz: Iterative Solution of the Helmholtz Equation via the Wave Equation, SIAM Journal on Scientific Computing, Vol. 42, 4, A1950-A1983
 1. Our paper for the frequency-domain Maxwell's paper: Z. Peng, D. Appel&ouml;, EM-WaveHoltz: A flexible frequency-domain method built from time-domain solvers, IEEE Transactions on Antennas and Propagation, 2022, Vol. 70, No. 7  
