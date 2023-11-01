@@ -80,7 +80,7 @@ two choices.
 $$ (I-S)\nu = \Pi 0,\;\text{with}\;S\nu = \Pi \nu -\Pi 0,$$
 and solve it with an iterative solver.
 
-Remakr: Matrix vector multiplication $(I-S)\nu$ can be computed in a matrix-free manner based on a time-domain solver.
+Remark: Matrix vector multiplication $(I-S)\nu$ can be computed in a matrix-free manner based on a time-domain solver.
 We also  want to point that $\Pi 0$ filters the solution corresponding to $0$ initial condition over one period and with non-zero source $\Pi 0\neq 0$. 
 
 <a name="Implementation"></a>
@@ -109,7 +109,7 @@ end
 ```
 At the end of the day, we can solve $(I-S)\nu = \Pi 0$ with a Krlov subspace iterative solver.
 
-An alternative implementation of $S\nu=\Pi\nu-\Pi 0$ is to set the initial condition as $\nu$ and the source term as $0$ in the time-domain. This alternative implementation is based on the following facts. $\Pi \nu$ filters the time-domain solution with initial condition $\nu$ and the source $-\widetilde{J}(t)=-\sin(\omega t)\textrm{Re}(J)-\cos(\omega t)\textrm{Im}(J)$ and $\Pi 0$ filters the time-domain solution with zero initial condition and the same source. Because the time-domain problem is a PDE, $\Pi \nu -\Pi 0$ actually equals to filtering the time-domain solution with the initial condition $\nu=\nu-0$ and the source $0=-\widetilde{J}-(-\widetilde{J})$.
+Remark: An alternative implementation of $S\nu=\Pi\nu-\Pi 0$ is to set the initial condition as $\nu$ and the source term as $0$ in the time-domain. This alternative implementation is based on the following facts. $\Pi \nu$ filters the time-domain solution with initial condition $\nu$ and the source $-\widetilde{J}(t)=-\sin(\omega t)\textrm{Re}(J)-\cos(\omega t)\textrm{Im}(J)$ and $\Pi 0$ filters the time-domain solution with zero initial condition and the same source. Because the time-domain problem is a PDE, $\Pi \nu -\Pi 0$ actually equals to filtering the time-domain solution with the initial condition $\nu=\nu-0$ and the source $0=-\widetilde{J}-(-\widetilde{J})$.
 
 
 <a name="Properties"></a>
