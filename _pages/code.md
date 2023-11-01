@@ -13,6 +13,9 @@ The Demo code is written to showcase how to couple EM-WaveHoltz with a time-doma
 
 The matlab demo code is written by me and [Dr. Pengliang Yang](https://yangpl.wordpress.com/). Great thanks to Pengliang for his great suggestions.
 
+If you read our sample code, you may notice that we only fiter for $E$. The reason is that we are considering a simple problem with $Im(H)=0$. For more complicated problems, we need to filter for 
+both $E$ and $H$.
+
 ### Basic Ideas
 <details>
 <summary>
@@ -77,46 +80,40 @@ Matrix vector multiplication $(I-S)\nu$ can be computed in a matrix-free manner 
 
 We want to point that $\Pi 0$ filters the solution corresponding to $0$ initial condition over one period and with non-zero source $\Pi 0\neq 0$. 
 </details>
+
 ### How to adapt your time-domain code to solve a frequency-domain problem? 
+<details>
+<summary>
+Read more
+</summary>
 Eessential new components include:
 1. An integration in time to compute the result of the filtering operator, 
 1. A function to wrap matrix-vector multiplication in matrix free format.
 
-The filtering operator $\Pi$ can be implemented by adding a few more lines to your time-domain solver:
+The filtering operator $\Pi$ can be implemented by adding a few more lines (red line) to your time-domain solver.
+![image](https://zhichaopengmath.github.io/files/WaveHoltzDemo.png)
+
+The right hand side vector $\Pi 0$ and the  matrix-vector multiplication $(I-S)\nu$ can be computed in a matrix free manner.
 ```matlab
-function E_integral = time_domain_evolution(E_initial)
-    global omega
-    global dt
-    global Nt
-    global N
-    global h
-    global x
+PI_0 = time_domain_evolution(zeros(N,1));% compute PI 0
 
-    % initial conditions
-    H = zeros(N-1,1);
-    E = E_initial;
-    H = H - 0.5*dt*(E(2:N) - E(1:N-1))/h;    % backward half step evolution for H
-
-    % integral term
-    stepsize = 2/Nt;
-    eta = 0.5;
-    E_integral = E*stepsize*eta*0.75;
-
-    % time evolution
-    time = 0.0;
-    eta  = 1.0;
-    for i = 1:Nt
-        H = H + dt*(E(2:N) - E(1:N-1))/h;
-        E(2:N-1) = E(2:N-1) + dt*((H(2:N-1)-H(1:N-2))/h-sin(omega*(time+0.5*dt))*Js(x(2:N-1)));
-
-        time = time+dt;
-        if(i==Nt) eta = 0.5; end
-        E_integral = E_integral+E*stepsize*eta*(cos(omega*time)-0.25);
-    end
+% Operator (I-S)v = (I-Π)v + Π0
+%===============================
+function res = ImS(v)
+    % use time domain simulation to compute Πv
+    global PI_0;
+    PI_v = time_domain_evolution(v);
+    res = v-PI_v+PI_0;
 end
 ```
 
+</details>
+
 ### Basic properties
+<details>
+<summary>
+Read more
+</summary>
 1. To some extent, WaveHoltz can be seen as preconditioning the frequency-domain problem with time-domain simulations and filtering.
 
 1. In comparsion with limiting amplitude principle, the filtering process makes the convergence faster. Also, the WaveHoltz method can be applied to problems in closed domain (e.g. PEC boundary conditions in all boundary). 
@@ -125,3 +122,17 @@ end
 - Does not depend on points per wavelength. 
 - With a fixed number of points per wave length, it scales as $(\omega)$ for open domain problems and $O(\omega^d)$ ($d$ is the dimension$ for the worst case prolbem.
 
+1. For the energy conserving problem with PEC boundary conditions, real current $J$, real permitivity and real permeability, the resulting linear system is symmetric positive definite (SPD) with a proper discretization (such as Yee scheme). 
+
+Note that for other cases, the resulting linear system may not be SPD. For example, in the case with non-reflecting boundary conditions realized through PML or radiation boundary condition, the linear system will have complex eigenvalues. 
+
+1. It is possible to compute solution corresponding to multiple frequency with one linear solve and post-processing. See [our paper](https://arxiv.org/abs/2103.14789) for details.
+</details>
+### References
+<details>
+<summary>
+Read more
+</summary>
+1. Daneil, Fortino and Olof's first WaveHoltz paper for the Helmholtz equation: D. Appel&ouml;, F. Garcia, O. Runborg,  WaveHoltz: Iterative Solution of the Helmholtz Equation via the Wave Equation, SIAM Journal on Scientific Computing, Vol. 42, 4, A1950-A1983
+1. Our paper for the frequency-domain Maxwell's paper: Z. Peng, D. Appel&ouml;, EM-WaveHoltz: A flexible frequency-domain method built from time-domain solvers, IEEE Transactions on Antennas and Propagation, 2022, Vol. 70, No. 7  
+</details>
