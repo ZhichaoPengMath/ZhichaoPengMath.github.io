@@ -5,15 +5,16 @@ permalink: /code/
 author_profile: true
 ---
 
-# EM-WaveHoltz
+## EM-WaveHoltz
 
 ### Demo code for a simple 1D problem to showcase how to couple EM-WaveHoltz with a time-domain solver:
 [julia version](https://zhichaopengmath.github.io/files/WaveHoltz_1D_Demo.zip) [matlab version](https://zhichaopengmath.github.io/files/WaveHoltz_yang.m) 
 
 The matlab demo code is written by me and [Dr. Pengliang Yang](https://yangpl.wordpress.com/). Great thanks to Pengliang for his great suggestions.
 
-<summary>
 ### Basic Ideas
+<summary>
+Details
 </summary>
 <details>
 1. Given the frequency-domain problem, such as the following simple non-dimensionalized case:
