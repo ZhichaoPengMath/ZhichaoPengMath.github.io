@@ -29,10 +29,10 @@ If you read our sample code, you may notice that we only fiter the electric fiel
 $$
 \begin{align}
 &i\omega E = \nabla\times H-J,\\
-&i\omega H = -\nabla\times E,
+&i\omega H = -\nabla\times E.
 \end{align}
 $$
-define the corresponding time-domain problem
+We define a time-domain problem
 $$
 \begin{align}
 &\partial_t \tilde{E} =  \nabla\times \tilde{H}- \sin(\omega t)Re(J)-\cos(\omega t) Im(J),\\
