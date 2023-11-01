@@ -129,5 +129,7 @@ Remark: An alternative implementation of $S\nu=\Pi\nu-\Pi 0$ is to set the initi
 
 <a name="Reference"></a>
 ### Reference
-1. Daneil, Fortino and Olof's first WaveHoltz paper for the Helmholtz equation: D. Appel&ouml;, F. Garcia, O. Runborg,  WaveHoltz: Iterative Solution of the Helmholtz Equation via the Wave Equation, SIAM Journal on Scientific Computing, Vol. 42, 4, A1950-A1983
-1. Our paper for the frequency-domain Maxwell's paper: Z. Peng, D. Appel&ouml;, EM-WaveHoltz: A flexible frequency-domain method built from time-domain solvers, IEEE Transactions on Antennas and Propagation, 2022, Vol. 70, No. 7  
+1. Daneil, Fortino and Olof's first WaveHoltz paper for the Helmholtz equation: 
+D. Appel&ouml;, F. Garcia, O. Runborg,  WaveHoltz: Iterative Solution of the Helmholtz Equation via the Wave Equation, SIAM Journal on Scientific Computing, Vol. 42, 4, A1950-A1983
+1. Our paper for the frequency-domain Maxwell's paper: 
+Z. Peng, D. Appel&ouml;, EM-WaveHoltz: A flexible frequency-domain method built from time-domain solvers, IEEE Transactions on Antennas and Propagation, 2022, Vol. 70, 7
