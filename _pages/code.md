@@ -89,7 +89,7 @@ Eessential new components include:
 1. An integration in time to compute the result of the filtering operator, 
 1. A function to wrap matrix-vector multiplication in matrix free format.
 
-The filtering operator $\Pi$ can be implemented by adding a few more lines (red line) to your time-domain solver.
+The filtering operator $\Pi$ can be implemented by adding a few lines (e.g. the red lines below) to your time-domain solver.
 ![image](https://zhichaopengmath.github.io/files/WaveHoltzDemo.png)
 
 Based on the code for filtering opertor, the right hand side vector $\Pi 0$ and the  matrix-vector multiplication $(I-S)\nu$ can be computed in a matrix free manner.
