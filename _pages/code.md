@@ -119,8 +119,8 @@ Remark: An alternative implementation of $S\nu=\Pi\nu-\Pi 0$ is to set the initi
 1. In comparsion with limiting amplitude principle, the filtering process makes the convergence faster. Additionally, the WaveHoltz method can be applied to problems in the closed domain (e.g. PEC boundary conditions for all boundaries). 
 
 1. Number of iterations for solving $(I-S)\nu=\Pi 0$ with a Krylov solver:
-- Does not depend on points per wavelength. 
-- With a fixed number of points per wave length, it scales as $(\omega)$ for open domain problems and $O(\omega^d)$ ($d$ is the dimension$ for the worst case prolbem.
+- Independent of points per wavelength. 
+- With a fixed number of points per wave length, it scales as $O(\omega)$ for problems without trapped wave structures (e.g. Mie scattering with non-refelcting boundary conditions) and $O(\omega^d)$ ($d$ is the dimension of the problem) for the worst case with fully trapped wave structures (e.g. a problem with PEC boundary conditions for all boundaries).
 
 1. For the energy conserving problem with PEC boundary conditions, real current $J$, real permitivity and real permeability, the resulting linear system is symmetric positive definite (SPD) with a proper discretization (such as Yee scheme). Note that for other cases, the resulting linear system may not be SPD. For example, in the case with non-reflecting boundary conditions such as PML or radiation boundary condition, the linear system will have complex eigenvalues. 
 
