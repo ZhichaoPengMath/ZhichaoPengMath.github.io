@@ -6,13 +6,16 @@ author_profile: true
 ---
 
 # EM-WaveHoltz
-======
-Demo code for a simple 1D problem to showcase how to couple EM-WaveHoltz with a time-domain solver:
+
+### Demo code for a simple 1D problem to showcase how to couple EM-WaveHoltz with a time-domain solver:
 [julia version](https://zhichaopengmath.github.io/files/WaveHoltz_1D_Demo.zip) [matlab version](https://zhichaopengmath.github.io/files/WaveHoltz_yang.m) 
 
 The matlab demo code is written by me and [Dr. Pengliang Yang](https://yangpl.wordpress.com/). Great thanks to Pengliang for his great suggestions.
 
-### Basic Ideas: 
+<details>
+<summary>
+### Basic Ideas
+<summary>
 1. Given the frequency-domain problem, such as the following simple non-dimensionalized case:
 $$
 \begin{align}
@@ -71,7 +74,7 @@ and solve it with an iterative solver.
 Matrix vector multiplication $(I-S)\nu$ can be computed in a matrix-free manner based on a time-domain solver.
 
 We want to point that $\Pi 0$ filters the solution corresponding to $0$ initial condition over one period and with non-zero source $\Pi 0\neq 0$. 
-
+<details>
 ### How to adapt your time-domain code to solve a frequency-domain problem? 
 Eessential new components include:
 1. An integration in time to compute the result of the filtering operator, 
