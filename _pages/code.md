@@ -14,10 +14,10 @@ The Demo code is written to showcase how to couple EM-WaveHoltz with a time-doma
 The matlab demo code is written by me and [Dr. Pengliang Yang](https://yangpl.wordpress.com/). Great thanks to Pengliang for his great suggestions.
 
 ### Basic Ideas
-<summary>
-Details
-</summary>
 <details>
+<summary>
+Read more
+</summary>
 1. Given the frequency-domain problem, such as the following simple non-dimensionalized case:
 $$
 \begin{align}
