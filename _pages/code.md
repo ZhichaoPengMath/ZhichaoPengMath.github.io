@@ -60,7 +60,7 @@ $$
 $$
 $\Pi\nu$ essentially filters the time-domain solution determined by the initial condition $\nu$ over one period.
 
-1. With some simple [algebra]((https://zhichaopengmath.github.io/appendix/waveholtz/waveholtz_algebra.pdf), one can show that
+1. With some simple [algebra](https://zhichaopengmath.github.io/appendix/waveholtz/waveholtz_algebra.pdf), one can show that
 $$
 \begin{align}
 \Pi \left(\begin{matrix}
