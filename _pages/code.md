@@ -116,9 +116,9 @@ Remark: An alternative implementation of $S\nu=\Pi\nu-\Pi 0$ is to set the initi
 ### Properties of WaveHoltz and more remarks
 1. To some extent, WaveHoltz can be seen as preconditioning the frequency-domain problem with time-domain simulations and filtering.
 
-1. In comparsion with limiting amplitude principle, the filtering process makes the convergence faster. Additionally, the WaveHoltz method can be applied to problems in the closed domain (e.g. PEC boundary conditions in all boundary). 
+1. In comparsion with limiting amplitude principle, the filtering process makes the convergence faster. Additionally, the WaveHoltz method can be applied to problems in the closed domain (e.g. PEC boundary conditions for all boundaries). 
 
-1. The number of iterations for convergence with a Krylov solver:
+1. Number of iterations for solving $(I-S)\nu=\Pi 0$ with a Krylov solver:
 - Does not depend on points per wavelength. 
 - With a fixed number of points per wave length, it scales as $(\omega)$ for open domain problems and $O(\omega^d)$ ($d$ is the dimension$ for the worst case prolbem.
 
