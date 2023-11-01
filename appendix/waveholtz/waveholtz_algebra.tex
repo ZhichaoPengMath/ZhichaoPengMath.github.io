@@ -53,37 +53,37 @@
 \usepackage[top=2.8cm,bottom=2.8cm,left=3.5cm,right=3.5cm]{geometry}
 
 \begin{document}
-\title{Show $(Im(E),Im(H))^T$ is a fixed point of $\Pi$}
+\title{Show $(\textrm{Im}(E),\textrm{Im}(H))^T$ is a fixed point of $\Pi$}
 \maketitle
 Suppose $(E,H)^T$ is the solutions of the non-dimensionalized equation
 \begin{align}
 &i\omega E = \nabla\times H-J,\\
-&i\omega H = -\nabla\times E,
+&i\omega H = -\nabla\times E.
 \end{align}
-We will obtain 
+Decompose $E$ and $H$ as $E=\textrm{Re}(E)+i \textrm{Im}(E)$ and $H=Re(H)+i \textrm{Im}(H)$, we will obtain 
 \begin{align}
-&-\omega Im(E) = \nabla\times Re(H)-Re(J), \\
-& \omega Re(E) = \nabla\times Im(H)-Im(J), \\
-&-\omega Im(H) = -\nabla\times Re(E), \\
-&\omega  Re(H) = -\nabla\times Im(E). 
+&-\omega \textrm{Im}(E) = \nabla\times \textrm{Re}(H)-Re(J), \\
+& \omega \textrm{Re}(E) = \nabla\times \textrm{Im}(H)-\textrm{Im}(J), \\
+&-\omega \textrm{Im}(H) = -\nabla\times \textrm{Re}(E), \\
+&\omega  \textrm{Re}(H) = -\nabla\times \textrm{Im}(E). 
 \end{align}
 Utilizing this relation, one can verify that 
 \begin{align}
-\tilde{E}(t) = Im(E) \cos(\omega t) + Re(E) \sin(\omega t), \\
-\tilde{H}(t) = Im(H) \cos (\omega t) + Re(H) \sin (\omega t).
+\tilde{E}(t) = \textrm{Im}(E) \cos(\omega t) + \textrm{Re}(E) \sin(\omega t), \\
+\tilde{H}(t) = \textrm{Im}(H) \cos (\omega t) + \textrm{Re}(H) \sin (\omega t).
 \end{align}
 is a solution of
 \begin{align}
-&\partial_t \tilde{E} =  \nabla\times \tilde{H}- \sin(\omega t)Re(J)-\cos(\omega t) Im(J),\\
+&\partial_t \tilde{E} =  \nabla\times \tilde{H}- \sin(\omega t)\textrm{Re}(J)-\cos(\omega t) \textrm{Im}(J),\\
 &\partial_t \tilde{H} = -\nabla\times \tilde{E}.
 \end{align}
 
 
-Substitute $( \tilde{E}_0,\tilde{H}_0)^T=(Im(E),Im(H))^T$ and $( \tilde{E}(t),\tilde{H}(t) )^T$ into the definition of filtering operator $\Pi$, we have
+Substitute $( \tilde{E}_0,\tilde{H}_0)^T=(\textrm{Im}(E),\textrm{Im}(H))^T$ and $( \tilde{E}(t),\tilde{H}(t) )^T$ into the definition of filtering operator $\Pi$, we have
 \begin{align}
 \Pi \left(\begin{matrix}
-Im(E)\\
-Im(H)
+\textrm{Im}(E)\\
+\textrm{Im}(H)
 \end{matrix}\right)&=
 \Pi \left(\begin{matrix}
 \tilde{E}_0
@@ -98,12 +98,12 @@ Im(H)
 &=\frac{2}{T}\int_{0}^T 
 (\cos(\omega t)-\frac{1}{4})
 \left(\begin{matrix}
-Im(E) \cos(\omega t) + Re(E) \sin(\omega t)\\
-Im(H) \cos (\omega t) + Re(H) \sin (\omega t)
+\textrm{Im}(E) \cos(\omega t) + \textrm{Re}(E) \sin(\omega t)\\
+\textrm{Im}(H) \cos (\omega t) + \textrm{Re}(H) \sin (\omega t)
 \end{matrix}\right)dt\notag\\
 &=\left(\begin{matrix}
-Im(E)\\
-Im(H)
+\textrm{Im}(E)\\
+\textrm{Im}(H)
 \end{matrix}\right).
 \end{align}
 
