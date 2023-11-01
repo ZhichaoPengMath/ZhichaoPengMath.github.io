@@ -107,9 +107,7 @@ At the end of the day, we can solve $(I-S)\nu = \Pi 0$ with a Krlov subspace ite
 - Does not depend on points per wavelength. 
 - With a fixed number of points per wave length, it scales as $(\omega)$ for open domain problems and $O(\omega^d)$ ($d$ is the dimension$ for the worst case prolbem.
 
-1. For the energy conserving problem with PEC boundary conditions, real current $J$, real permitivity and real permeability, the resulting linear system is symmetric positive definite (SPD) with a proper discretization (such as Yee scheme). 
-
-Note that for other cases, the resulting linear system may not be SPD. For example, in the case with non-reflecting boundary conditions realized through PML or radiation boundary condition, the linear system will have complex eigenvalues. 
+1. For the energy conserving problem with PEC boundary conditions, real current $J$, real permitivity and real permeability, the resulting linear system is symmetric positive definite (SPD) with a proper discretization (such as Yee scheme). Note that for other cases, the resulting linear system may not be SPD. For example, in the case with non-reflecting boundary conditions such as PML or radiation boundary condition, the linear system will have complex eigenvalues. 
 
 1. It is possible to compute solution corresponding to multiple frequency with one linear solve and post-processing. See [our paper](https://arxiv.org/abs/2103.14789) for details.
 
