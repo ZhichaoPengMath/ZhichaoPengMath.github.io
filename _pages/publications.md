@@ -11,11 +11,11 @@ Submitted
 --------------
 1. Z. Peng, D. Appel&ouml;, N.A. Petersson, M. Motamed, F. Garcia, Y. Cho, Deterministic and Bayesian Characterization of Quantum Computing Devices, [arXiv:2306.13747](https://arxiv.org/abs/2306.13747), 2023
 1. Z. Peng, Y. Chen, Y. Cheng, F. Li, A micro-macro decomposed reduced basis method for the time dependent radiative transfer equation, [arxiv:2211.04677](https://arxiv.org/abs/2211.04677), 2022
-1. L. A. Martinez, Z. Peng, D. Appel&ouml;, D. Tennant, N.A. Petersson, J. DuBois, Y. Rosen , Noise-specific beats in the higher-level Ramsey curves of a transmon qubit, [arxiv:2211.06531](https://arxiv.org/abs/2211.06531), 2022
 
 Paper
 --------------
 1. Z. Peng, D. Appel&ouml;, S. Liu, Universal AMG Accelerated Embedded Boundary Method Without Small Cell Stiffness, [arxiv:2204.06083](https://arxiv.org/abs/2204.06083), Journal of Scientific Computing, 2023, Vol. 97, 40
+1. L. A. Martinez, Z. Peng, D. Appel&ouml;, D. Tennant, N.A. Petersson, J. DuBois, Y. Rosen , Noise-specific beats in the higher-level Ramsey curves of a transmon qubit, [arxiv:2211.06531](https://arxiv.org/abs/2211.06531), Applied Physics Letters, 2023, Vol. 122, 114002
 1. Z. Peng, M. Wang, F. Li, A learning-based projection method for model order reduction of transport problems, [arxiv:2105.14633](https://arxiv.org/abs/2105.14633), Journal of Computational and Applied Mathematics, 2023, Vol. 418, 114560
 1. H. Zhang, Z. Peng, Total generalized variation for triangulated surface data, Journal of Scientific Computing, 2022, Vol. 93, No. 87
 1. Z. Peng, D. Appel&ouml;, EM-WaveHoltz: A flexible frequency-domain method built from time-domain solvers, [arxiv:2013.14789](https://arxiv.org/abs/2103.14789),  IEEE Transactions on Antennas and Propagation, 2022, Vol. 70, No. 7 [A simple 1D demo code and short tutorial can be found here](https://zhichaopengmath.github.io/code/)
