@@ -5,7 +5,7 @@ permalink: /code/
 author_profile: true
 ---
 
-## EM-WaveHoltz
+## Demo Code and a short tutorial for the EM-WaveHoltz method
 
 ### Demo code for a simple 1D problem
 The Demo code is written to showcase how to couple EM-WaveHoltz with a time-domain solver:
@@ -18,7 +18,7 @@ both $E$ and $H$.
 
 ### [1 Basic Ideas](#BasicIdeas)
 
-### [2 For a quick implementation, check how to adapt your time-domain code to solve a frequency-domain problem?](#Implementation)
+### [2 How to adapt your time-domain code to solve a frequency-domain problem?](#Implementation)
 
 ### [3 Basic properties](#Properties)
 
