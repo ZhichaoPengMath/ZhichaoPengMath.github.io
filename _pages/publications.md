@@ -15,10 +15,10 @@ Submitted
 
 Paper
 --------------
-1. Z. Peng, D. Appel&ouml;, S. Liu, Universal AMG Accelerated Embedded Boundary Method Without Small Cell Stiffness, [arxiv:2204.06083](https://arxiv.org/abs/2204.06083), Accepted by Journal of Scientific Computing, 2022
-1. Z. Peng, M. Wang, F. Li, A learning-based projection method for model order reduction of transport problems, [arxiv:2105.14633](https://arxiv.org/abs/2105.14633), Journal of Computational and Applied Mathematics, 2023, Vol. 418,114560
+1. Z. Peng, D. Appel&ouml;, S. Liu, Universal AMG Accelerated Embedded Boundary Method Without Small Cell Stiffness, [arxiv:2204.06083](https://arxiv.org/abs/2204.06083), Journal of Scientific Computing, 2023, Vol. 97, 40
+1. Z. Peng, M. Wang, F. Li, A learning-based projection method for model order reduction of transport problems, [arxiv:2105.14633](https://arxiv.org/abs/2105.14633), Journal of Computational and Applied Mathematics, 2023, Vol. 418, 114560
 1. H. Zhang, Z. Peng, Total generalized variation for triangulated surface data, Journal of Scientific Computing, 2022, Vol. 93, No. 87
-1. Z. Peng, D. Appel&ouml;, EM-WaveHoltz: A flexible frequency-domain method built from time-domain solvers, [arxiv:2013.14789](https://arxiv.org/abs/2103.14789),  IEEE Transactions on Antennas and Propagation, 2022, Vol. 70, No. 7 [A simple 1D demo code can be downloaded here](https://zhichaopengmath.github.io/files/WaveHoltz_1D_Demo.zip)
+1. Z. Peng, D. Appel&ouml;, EM-WaveHoltz: A flexible frequency-domain method built from time-domain solvers, [arxiv:2013.14789](https://arxiv.org/abs/2103.14789),  IEEE Transactions on Antennas and Propagation, 2022, Vol. 70, No. 7 [A simple 1D demo code and short tutorial can be found here](https://zhichaopengmath.github.io/code/)
 1. Z. Peng, Y. Chen, Y. Cheng, F. Li, A reduced basis method for radiative transfer equation, Journal of Scientific Computing, 2022, Vol. 91, 5. [arxiv preprint](https://arxiv.org/abs/2103.07574)
 1. Z. Peng,  F. Li, Asymptotic preserving IMEX-DG-S schemes for linear kinetic transport equations based on Schur complement, [pdf](https://arxiv.org/abs/2006.07497), SIAM Journal on Scientific Computing, 2021, Vol. 43, No. 2, pp. A1194-A1220
 1. Z. Peng, Y. Cheng, J.-M. Qiu, F. Li, Stability-enhanced AP IMEX1-LDG method: energy-based stability and rigorous AP property, [pdf](https://arxiv.org/abs/2005.05454), SIAM Journal on Numerical Analysis, 2021, Vol. 59, No. 2, pp. 925-954
