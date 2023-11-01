@@ -13,7 +13,7 @@ The Demo code is written to showcase how to couple EM-WaveHoltz with a time-doma
 
 The matlab demo code is written by me and [Dr. Pengliang Yang](https://yangpl.wordpress.com/). Great thanks to Pengliang for his great suggestions.
 
-If you read our sample code, you may notice that we only fiter the electric field. The reason is that we are considering a simple problem with $Im(H)=0$. For more complicated problems, we need to filter both electric and magnetic fields.
+If you read our sample code, you may notice that we only fiter the electric field. The reason is that we are considering a simple problem with $	extrm{Im}(H)=0$. For more complicated problems, we need to filter both electric and magnetic fields.
 
 ### [1 Basic Ideas](#BasicIdeas)
 
@@ -27,17 +27,21 @@ If you read our sample code, you may notice that we only fiter the electric fiel
 ### Basic ideas
 1. Given the frequency-domain problem, such as the following simple non-dimensionalized case:
 $$
+\begin{subequations}
 \begin{align}
 &i\omega E = \nabla\times H-J,\\
 &i\omega H = -\nabla\times E.
 \end{align}
+\end{subequations}
 $$
 We define a time-domain problem
 $$
+\begin{subequations}
 \begin{align}
-&\partial_t \tilde{E} =  \nabla\times \tilde{H}- \sin(\omega t)Re(J)-\cos(\omega t) Im(J),\\
+&\partial_t \tilde{E} =  \nabla\times \tilde{H}- \sin(\omega t)	extrm{Re}(J)-\cos(\omega t) 	extrm{Im}(J),\\
 &\partial_t \tilde{H} = -\nabla\times \tilde{E}，
 \end{align}
+\end{subequations}
 $$
 and a filtering operator acting on the initial condition of the time-domain problem
 $$
@@ -60,12 +64,12 @@ $\Pi\nu$ essentially filters the time-domain solution determined by the initial 
 $$
 \begin{align}
 \Pi \left(\begin{matrix}
-Im(E)\\
-Im(H)
+	extrm{Im}(E)\\
+	extrm{Im}(H)
 \end{matrix}\right)=
 \left(\begin{matrix}
-Im(E)\\
-Im(H)
+	extrm{Im}(E)\\
+	extrm{Im}(H)
 \end{matrix}\right).
 \end{align}
 $$
