@@ -92,7 +92,7 @@ Eessential new components include:
 The filtering operator $\Pi$ can be implemented by adding a few lines (e.g. the red lines below) to your time-domain solver.
 ![image](https://zhichaopengmath.github.io/files/WaveHoltzDemo.png)
 
-Based on the code for filtering opertor, the right hand side vector $\Pi 0$ and the  matrix-vector multiplication $(I-S)\nu$ can be computed in a matrix free manner.
+Then, we can compute the right hand side vector $\Pi 0$ and the  matrix-vector multiplication $(I-S)\nu$ in a matrix free manner.
 ```matlab
 PI_0 = time_domain_evolution(zeros(N,1));% compute PI 0
 
@@ -105,9 +105,12 @@ function res = ImS(v)
     res = v-PI_v+PI_0;
 end
 
-```
 
+```
 At the end of the day, we can solve $(I-S)\nu = \Pi 0$ with a Krlov subspace iterative solver.
+
+An alternative implementation of $S\nu=\Pi\nu-\Pi 0$ is to set the initial condition as $\nu$ and the source term as $0$ in the time-domain. This alternative implementation is based on the following facts. $\Pi \nu$ filters the time-domain solution with initial condition $\nu$ and the source $-\widetilde{J}(t)=-\sin(\omega t)\textrm{Re}(J)-\cos(\omega t)\textrm{Im}(J)$ and $\Pi 0$ filters the time-domain solution with zero initial condition and the same source. Because the time-domain problem is a PDE, $\Pi \nu -\Pi 0$ actually equals to filtering the time-domain solution with the initial condition $\nu=\nu-0$ and the source $0=-\widetilde{J}-(-\widetilde{J})$.
+
 
 <a name="Properties"></a>
 ### Basic properties
