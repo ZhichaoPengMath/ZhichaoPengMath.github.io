@@ -39,9 +39,38 @@ $$
 	dt,\quad T=\frac{2\Pi}{\omega}.
 \end{align}
 $$
+$\Pi\nu$ essentially filters the time-domain solution determined by the initial condition $\nu$ over one period.
 
-1. With some simple algebra (check Appendix 1), one can 
+1. With some simple algebra (check Appendix 1), one can show that
+$$
+\begin{align}
+\Pi \left(\begin{matrix}
+Im(E)\\
+Im(H)
+\end{matrix}\right)=
+\left(\begin{matrix}
+Im(E)\\
+Im(H)
+\end{matrix}\right).
+\end{align}
+$$
 
+Hence, solving the frequency-domain problem is equivalent to solve the fixed point problem 
+$ \Pi\nu = \nu$ in the time-domain. To solve this time-domain fixed point problem, we have 
+two choices.
+    1. One can apply fixed point iteration/Anderson acceleration. 
+    1. One can rewrite the $\Pi\nu = \nu$ as an equivalent linear system 
+    $$ (I-S)\nu = \Pi 0,$$
+    where $$S\nu = \Pi \nu -\Pi 0.$$
+
+    One can implement matrix-vector product $(I-S)\nu$ in a matrix-free manner based on a time-domain solver, and applies Krylov subspace iterative solver to solve $(I-S)\nu=\Pi 0$.
+
+    We want to point that $\Pi 0$ filters the solution corresponding to $0$ initial condition over one period and with non-zero source $\Pi 0\neq 0$. 
+
+1. In comparsion with limiting amplitude principle, the filtering process makes the convergence faster. Also, the WaveHoltz method can be applied to problems in closed domain (e.g. PEC boundary conditions in all boundary). 
+
+$(I-S)\nu = \Pi 0$ is a better conditioned linear system. To some extent, the method can be seen as a preconditioner. The number of iterations for convergence does not depend on the points per wavelength. 
+With a fixed number of points per wave length, it scales as $(\omega)$ for open domain problems and $O(\omega^d)$ ($d$ is the dimension$ for the worst case prolbem.
 
 Appendix 1
 ======
@@ -86,7 +115,7 @@ Im(H)
 \left(\begin{matrix}
 Im(E)\\
 Im(H)
-\end{matrix}\right)
+\end{matrix}\right).
 \end{align}
 $$
 
