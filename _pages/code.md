@@ -19,7 +19,7 @@ If you read our sample code, you may notice that we only fiter the electric fiel
 
 ### [2 How to adapt your time-domain code to solve a frequency-domain problem?](#Implementation)
 
-### [3 Basic properties](#Properties)
+### [3 Properties of WaveHoltz and more remarks](#Properties)
 
 ### [4 Reference](#Reference)
 
@@ -109,14 +109,14 @@ end
 ```
 At the end of the day, we can solve $(I-S)\nu = \Pi 0$ with a Krlov subspace iterative solver.
 
-Remark: An alternative implementation of $S\nu=\Pi\nu-\Pi 0$ is to set the initial condition as $\nu$ and the source term as $0$ in the time-domain. This alternative implementation is based on the following facts. $\Pi \nu$ filters the time-domain solution with initial condition $\nu$ and the source $-\widetilde{J}(t)=-\sin(\omega t)\textrm{Re}(J)-\cos(\omega t)\textrm{Im}(J)$ and $\Pi 0$ filters the time-domain solution with zero initial condition and the same source. Because the time-domain problem is a PDE, $\Pi \nu -\Pi 0$ actually equals to filtering the time-domain solution with the initial condition $\nu=\nu-0$ and the source $0=-\widetilde{J}-(-\widetilde{J})$.
+Remark: An alternative implementation of $S\nu=\Pi\nu-\Pi 0$ is to set the initial condition as $\nu$ and the source term as $0$ in the time-domain. This alternative implementation is based on the following facts. $\Pi \nu$ filters the time-domain solution with initial condition $\nu$ and the source $-\widetilde{J}(t)=-\sin(\omega t)\textrm{Re}(J)-\cos(\omega t)\textrm{Im}(J)$ and $\Pi 0$ filters the time-domain solution with zero initial condition and the same source. Because the time-domain problem is linear, $\Pi \nu -\Pi 0$ equals to filtering the time-domain solution with the initial condition $\nu=\nu-0$ and the source $0=-\widetilde{J}-(-\widetilde{J})$.
 
 
 <a name="Properties"></a>
-### Basic properties
+### Properties of WaveHoltz and more remarks
 1. To some extent, WaveHoltz can be seen as preconditioning the frequency-domain problem with time-domain simulations and filtering.
 
-1. In comparsion with limiting amplitude principle, the filtering process makes the convergence faster. Also, the WaveHoltz method can be applied to problems in closed domain (e.g. PEC boundary conditions in all boundary). 
+1. In comparsion with limiting amplitude principle, the filtering process makes the convergence faster. Additionally, the WaveHoltz method can be applied to problems in the closed domain (e.g. PEC boundary conditions in all boundary). 
 
 1. The number of iterations for convergence with a Krylov solver:
 - Does not depend on points per wavelength. 
