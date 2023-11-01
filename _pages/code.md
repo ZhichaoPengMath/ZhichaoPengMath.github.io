@@ -81,7 +81,8 @@ two choices.
 $$ (I-S)\nu = \Pi 0,\;\text{with}\;S\nu = \Pi \nu -\Pi 0,$$
 and solve it with an iterative solver.
 
-Matrix vector multiplication $(I-S)\nu$ can be computed in a matrix-free manner based on a time-domain solver.
+Remakr: Matrix vector multiplication $(I-S)\nu$ can be computed in a matrix-free manner based on a time-domain solver.
+We also  want to point that $\Pi 0$ filters the solution corresponding to $0$ initial condition over one period and with non-zero source $\Pi 0\neq 0$. 
 
 <a name="Implementation"></a>
 ### How to adapt your time-domain code to solve a frequency-domain problem?
@@ -111,7 +112,6 @@ At the end of the day, we can solve $(I-S)\nu = \Pi 0$ with a Krlov subspace ite
 
 1. It is possible to compute solution corresponding to multiple frequency with one linear solve and post-processing. See [our paper](https://arxiv.org/abs/2103.14789) for details.
 
-We want to point that $\Pi 0$ filters the solution corresponding to $0$ initial condition over one period and with non-zero source $\Pi 0\neq 0$. 
 
 <a name="Reference"></a>
 ### Reference
