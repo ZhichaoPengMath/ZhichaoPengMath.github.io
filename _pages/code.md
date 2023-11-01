@@ -13,8 +13,7 @@ The Demo code is written to showcase how to couple EM-WaveHoltz with a time-doma
 
 The matlab demo code is written by me and [Dr. Pengliang Yang](https://yangpl.wordpress.com/). Great thanks to Pengliang for his great suggestions.
 
-If you read our sample code, you may notice that we only fiter for $E$. The reason is that we are considering a simple problem with $Im(H)=0$. For more complicated problems, we need to filter for 
-both $E$ and $H$.
+If you read our sample code, you may notice that we only fiter the electric field. The reason is that we are considering a simple problem with $Im(H)=0$. For more complicated problems, we need to filter both electric and magnetic fields.
 
 ### [1 Basic Ideas](#BasicIdeas)
 
