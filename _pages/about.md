@@ -23,7 +23,7 @@ From a problem perspective, I am more interested in kinetic equations and wave e
 	- Structure preserving methods: asymptotic preserving method, positivity preserving method, energy stable method
 	- Fast solvers and preconditioners for time-harmonic Maxwell's equation and Helmholtz equation 
 
-- Reduced order models for kinetic equations, hyperbolic equations and other transport dominant problems
+- Data driven and projection based reduced order models for kinetic equations, hyperbolic equations and other transport dominant problems
 
 During my postdoc period, I also did research in characterization and control problems for quantum computing. Believe it or not, I have performed physics experiments on real quantum devices.
 
