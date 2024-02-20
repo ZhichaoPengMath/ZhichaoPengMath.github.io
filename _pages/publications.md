@@ -9,11 +9,12 @@ My google scholar profile can be found [here](https://scholar.google.com/citatio
 
 Submitted
 --------------
+1. Z. Peng, Reduced Order Model Enhanced Source Iteration with Synthetic Acceleration for Parametric Radiative Transfer Equation, [arxiv:2402.10488](https://arxiv.org/abs/2402.10488), 2024
 1. Z. Peng, D. Appel&ouml;, N.A. Petersson, M. Motamed, F. Garcia, Y. Cho, Deterministic and Bayesian Characterization of Quantum Computing Devices, [arXiv:2306.13747](https://arxiv.org/abs/2306.13747), 2023
-1. Z. Peng, Y. Chen, Y. Cheng, F. Li, A micro-macro decomposed reduced basis method for the time dependent radiative transfer equation, [arxiv:2211.04677](https://arxiv.org/abs/2211.04677), 2022
 
 Paper
 --------------
+1. Z. Peng, Y. Chen, Y. Cheng, F. Li, A micro-macro decomposed reduced basis method for the time dependent radiative transfer equation, [arxiv:2211.04677](https://arxiv.org/abs/2211.04677), Accepted by SIAM Multiscale Modeling and Simulation.
 1. Z. Peng, D. Appel&ouml;, S. Liu, Universal AMG Accelerated Embedded Boundary Method Without Small Cell Stiffness, [arxiv:2204.06083](https://arxiv.org/abs/2204.06083), Journal of Scientific Computing, 2023, Vol. 97, 40
 1. L. A. Martinez, Z. Peng, D. Appel&ouml;, D. Tennant, N.A. Petersson, J. DuBois, Y. Rosen , Noise-specific beats in the higher-level Ramsey curves of a transmon qubit, [arxiv:2211.06531](https://arxiv.org/abs/2211.06531), Applied Physics Letters, 2023, Vol. 122, 114002
 1. Z. Peng, M. Wang, F. Li, A learning-based projection method for model order reduction of transport problems, [arxiv:2105.14633](https://arxiv.org/abs/2105.14633), Journal of Computational and Applied Mathematics, 2023, Vol. 418, 114560
