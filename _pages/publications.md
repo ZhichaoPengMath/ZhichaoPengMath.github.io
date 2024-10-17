@@ -7,9 +7,10 @@ author_profile: true
 My google scholar profile can be found [here](https://scholar.google.com/citations?user=rCPL8qoAAAAJ&hl=en).
 
 
-Submitted
+Preprints
 --------------
-1. Z. Peng, D. Appel&ouml;, N.A. Petersson, M. Motamed, F. Garcia, Y. Cho, Deterministic and Bayesian Characterization of Quantum Computing Devices, [arXiv:2306.13747](https://arxiv.org/abs/2306.13747), 2023
+1. Z. Peng, A Flexible GMRES Solver with Reduced Order Model Enhanced Synthetic Acceleration Preconditioenr for Parametric Radiative Transfer Equation, [arxiv:2410.08735](https://arxiv.org/abs/2410.08735), 2024
+1. Z. Peng, D. Appel&ouml;, N.A. Petersson, M. Motamed, F. Garcia, Y. Cho, Deterministic and Bayesian Characterization of Quantum Computing Devices, [arxiv:2306.13747](https://arxiv.org/abs/2306.13747), 2023
 
 Paper
 --------------
