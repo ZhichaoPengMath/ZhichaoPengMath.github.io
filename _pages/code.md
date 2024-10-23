@@ -124,7 +124,7 @@ Remark: An alternative implementation of $S\nu=\Pi\nu-\Pi 0$ is to set the initi
 
 1. For the energy conserving problem with PEC boundary conditions, real current $J$, real permitivity and real permeability, the resulting linear system is symmetric positive definite (SPD). Note that for other cases, the resulting linear system may not be SPD. For example, in the case with non-reflecting boundary conditions, the linear system has complex eigenvalues. 
 
-1. It is possible to compute solution corresponding to multiple frequency with one linear solve and post-processing. See [our paper](https://arxiv.org/abs/2103.14789) for details.
+1. It is possible to compute solution corresponding to multiple frequencies with one linear solve and post-processing. See [our paper](https://arxiv.org/abs/2103.14789) for details.
 
 
 <a name="Reference"></a>
