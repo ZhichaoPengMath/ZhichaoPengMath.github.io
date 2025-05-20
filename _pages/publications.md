@@ -11,11 +11,11 @@ Preprints
 --------------
 1. Y-M.Law,Z.Peng,D.Appel&ouml;,T.Hagstrom,AP-AdaptiveHermiteMethod for Nonlinear Dispersive Maxwell’s Equations, 2025
 1. L. Ji, Z. Peng, Y. Chen, AAROC: Reduced Over-Collocation Method with Adaptive Time Partitioning and Adaptive Enrichment for Parametric Time- Dependent Equations, 2024
-1. Z. Peng, A Flexible GMRES Solver with Reduced Order Model Enhanced Synthetic Acceleration Preconditioenr for Parametric Radiative Transfer Equation, [arxiv:2410.08735](https://arxiv.org/abs/2410.08735), 2024
 1. Z. Peng, D. Appel&ouml;, N.A. Petersson, M. Motamed, F. Garcia, Y. Cho, Deterministic and Bayesian Characterization of Quantum Computing Devices, [arxiv:2306.13747](https://arxiv.org/abs/2306.13747), 2023
 
 Paper
 --------------
+1. Z. Peng, A Flexible GMRES Solver with Reduced Order Model Enhanced Synthetic Acceleration Preconditioenr for Parametric Radiative Transfer Equation, [arxiv:2410.08735](https://arxiv.org/abs/2410.08735), Journal of Computational Physics, 2025, Vol. 534, 114004
 1. Z. Peng, Reduced Order Model Enhanced Source Iteration with Synthetic Acceleration for Parametric Radiative Transfer Equation, [arxiv:2402.10488](https://arxiv.org/abs/2402.10488), Journal of Computational Physics, 2024, Vol. 517, 1133034
 1. Z. Peng, Y. Chen, Y. Cheng, F. Li, A micro-macro decomposed reduced basis method for the time dependent radiative transfer equation, [arxiv:2211.04677](https://arxiv.org/abs/2211.04677), Multiscale Modeling and Simulation, 2024, Vol. 22, Iss. 1
 1. Z. Peng, D. Appel&ouml;, S. Liu, Universal AMG Accelerated Embedded Boundary Method Without Small Cell Stiffness, [arxiv:2204.06083](https://arxiv.org/abs/2204.06083), Journal of Scientific Computing, 2023, Vol. 97, 40
