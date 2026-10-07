@@ -13,20 +13,17 @@ Before joining HKUST, I was a postdoc in the Department of Mathematics, Michigan
 
 Research Interest 
 ======
-From a methodology perspective, my current research interests include (1) design, analysis and implementation of numerical solvers for PDEs and (2) data-driven and projection based dimensionality reduction techniques to reduce computational cost. 
+My current research interests include (1) design, analysis and implementation of numerical solvers for PDEs, (2) dimensionality reduction through data-driven model order reduction and low-rank solvers based on matrix or tensor compressions and (3) the interplay between morden dimensionality reduction techniques and classical numerical solvers. 
 
-From a problem perspective, I am more interested in kinetic equations and wave equations these days.
+On the problem side, I am more interested in kinetic equations especially the radiative transfer equation modeling photon and neutron transport and wave equations these days. More specifically, I work on:
 
 - Data driven  reduced order models for kinetic equations, hyperbolic equations and other transport dominant problems
 
 - Low-rank numerical methods for kinetic equations
 
-- Computational methods for kinetic problems, wave equations, electromagnetics and other problems.
+- Fast solvers and preconditioners for kinetic equations, time-harmonic Maxwell's equation and the Helmholtz equation 
 
-	- Development of finite element method, finite difference method, embedded boundary method
-	- Structure preserving methods: asymptotic preserving method, positivity preserving method, energy stable method
-	- Fast solvers and preconditioners for time-harmonic Maxwell's equation and Helmholtz equation 
-
+- Structure preserving methods: asymptotic preserving method, positivity preserving method, energy stable method
 
 During my postdoc period, I also did research in characterization and control problems for quantum computing. Believe it or not, I have performed physics experiments on real quantum devices.
 
@@ -45,7 +42,8 @@ Group
 
     - Ning Tang (2024-)
     - An Ping (2025-)
-    - Chenxi Han (2025-)
+    - Chenxi Han (primary advisor, co-advised with Prof. Wei Su HKUST, 2025-)
+    - Shuyuan Shang (2026-)
     - Meng Li (co-advisor,2023-)
 
 - Postdoc
